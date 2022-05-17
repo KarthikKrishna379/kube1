@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flaskapi
-          image: registry379.azurecr.io/karthikkrishnakube  
+          image: registry379.azurecr.io/karthikkrishnakube:latest 
           ports:
             - containerPort: 5000
 
