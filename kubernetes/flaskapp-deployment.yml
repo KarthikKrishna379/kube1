@@ -17,7 +17,6 @@ spec:
       containers:
         - name: flaskapi
           image: registry379.azurecr.io/karthikkrishnakube  
-          imagePullPolicy: Never
           ports:
             - containerPort: 5000
 
