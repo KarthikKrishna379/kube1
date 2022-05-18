@@ -66,3 +66,4 @@ stages:
         kubernetesServiceConnection: 'connection'
         namespace: 'default'
         manifests: $(Pipeline.Workspace)/manifests/flaskapp-deployment.yml
+        imagePullSecrets: '$(acrsecret)'
